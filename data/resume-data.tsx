@@ -98,7 +98,7 @@ export const RESUME_DATA = {
 		'tRPC',
 		'Node.js',
 		'GraphQL',
-		'',
+		'postgreSQL',
 	],
 	projects: [
 		{
