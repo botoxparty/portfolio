@@ -6,8 +6,7 @@ export const RESUME_DATA = {
 	location: 'Provo, Utah',
 	locationLink: 'https://maps.app.goo.gl/6A2D6gmPxufhUXhn8',
 	about: 'build, ship, scale, repeat',
-	summary:
-		'As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.',
+	summary: 'e/acc',
 	avatarUrl: 'https://avatars.githubusercontent.com/u/89933800?v=4',
 	personalWebsiteUrl: 'https://alxnder.co',
 	contact: {
@@ -49,7 +48,7 @@ export const RESUME_DATA = {
 			start: '2023',
 			end: '2024',
 			description:
-				'Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL',
+				'Co-founder Subtract in December of 2023 as CTO. Launched our beta in March of 2024. Currently scaling the company.',
 		},
 		{
 			company: 'nCino',
@@ -59,7 +58,7 @@ export const RESUME_DATA = {
 			start: '2023',
 			end: '2024',
 			description:
-				'Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL',
+				'Worked with 5 engineers to overhaul our key consumer product in VueJS and Ruby on Rails, achieving 98% adoption and 200,000 monthly views, boosting revenue by $2.7 million. Refined loan details code, cutting 15,000 lines for better readability and less technical debt, increasing revenue by $1.8 million.',
 		},
 		{
 			company: 'Cotopaxi',
@@ -68,7 +67,8 @@ export const RESUME_DATA = {
 			title: 'Social Entrepreneur Fellow',
 			start: '2022',
 			end: '2024',
-			description: 'Creating and testing software for LTE base stations',
+			description:
+				'Led by Mike Levinthal, 13 other fellows and myself met with business leaders from around the world every week for 6 months to discuss the ways that founders and leaders can create a better world. This culminated in Cotopaxi sponsoring us to spend a month in Mexico City, Mexico helping local families run and scale their own family businesses.',
 		},
 		{
 			company: 'Y-Video',
@@ -78,7 +78,7 @@ export const RESUME_DATA = {
 			start: '2022',
 			end: '2023',
 			description:
-				'Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL',
+				'Worked with 3 engineers on an open-source project focused on providing high school teachers and college professors with a suite of video editing tools to legally modify and share copyrighted footage with students to streamline video-based learning.',
 		},
 		{
 			company: 'BYU Broadcasting',
@@ -88,7 +88,7 @@ export const RESUME_DATA = {
 			start: '2022',
 			end: '2022',
 			description:
-				'Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress',
+				"Revised BYUtv's user personalization history storage db enhancing data collection per session by at least 50% and cutting redundant data by 83%. Updated an internal microservice to streamline user data handling, reducing code redundancy by 30% and API calls by 50%. Implemented an AWS workflow for faster business intelligence updates, shifting from weekly to daily user data integration into content recommendations.",
 		},
 	],
 	skills: [
