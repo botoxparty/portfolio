@@ -97,155 +97,104 @@ export const RESUME_DATA = {
 		'React/Next.js',
 		'tRPC',
 		'Node.js',
-		'GraphQL',
+		'Tailwind CSS',
+		'Ruby on Rails',
+		'graphQL',
 		'postgreSQL',
 	],
 	projects: [
 		{
-			title: 'Consultly',
+			title: 'dyt.to',
 			techStack: [
 				'Side Project',
 				'TypeScript',
 				'Next.js',
-				'Vite',
-				'GraphQL',
-				'WebRTC',
+				'Tailwind CSS',
+				'shadcn/ui',
+				'supabase',
 			],
-			description: 'A platform to build and grow your online business',
+			description: 'Easy to share short links for anything',
 			link: {
-				label: 'consultly.com',
-				href: 'https://consultly.com/',
+				href: 'https://dyt.to/',
 			},
 		},
 		{
-			title: 'Monito',
-			techStack: ['Side Project', 'TypeScript', 'Next.js', 'Browser Extension'],
-			description:
-				'Browser extension that records everything happening in a web application',
-			link: {
-				label: 'monito.dev',
-				href: 'https://monito.dev/',
-			},
-		},
-		{
-			title: 'Jarocki.me',
-			techStack: ['Side Project', 'Next.js', 'MDX'],
-			description:
-				'My personal website and blog. Built with Next.js and Notion API',
-			link: {
-				label: 'github.com',
-				href: 'https://jarocki.me/',
-			},
-		},
-		{
-			title: 'Minimal',
-			techStack: ['Side Project', 'Next.js', 'Puppeteer'],
-			description:
-				'Minimalist calendars, habit trackers and planners generator',
-			link: {
-				label: 'useminimal.com',
-				href: 'https://useminimal.com/',
-			},
-		},
-		{
-			title: 'Barepapers',
-			techStack: ['Side Project', 'Next.js', 'Puppeteer'],
-			description:
-				'Generates beautiful wallpapers using random shapes and gradients',
-			link: {
-				label: 'barepapers.com',
-				href: 'https://barepapers.com/',
-			},
-		},
-		{
-			title: 'Year progress',
-			techStack: ['Side Project', 'TypeScript', 'Next.js'],
-			description: 'Tracks current year progress and displays a countdown',
-			link: {
-				label: 'getyearprogress.com',
-				href: 'https://getyearprogress.com/',
-			},
-		},
-		{
-			title: 'Parabol',
+			title: 'readme.gg',
 			techStack: [
-				'Full Stack Developer',
+				'Side Project',
 				'TypeScript',
-				'React',
-				'Node.js',
-				'GraphQL',
+				'Next.js',
+				'dnd-kit',
+				'Tailwind CSS',
+				'shadcn/ui',
+				'supabase',
 			],
 			description:
-				'The Agile meeting co-pilot that delivers better meetings with less effort',
+				'A simple and easy to use tool to create and share readme files',
 			link: {
-				label: 'github.com',
-				href: 'https://parabol.co/',
+				href: 'https://readme.gg/',
 			},
 		},
 		{
-			title: 'Evercast',
+			title: 'alxnder.co',
+			techStack: ['Side Project', 'Next.js', 'TailwindCSS', 'shadcn/ui'],
+			description: "My personal website - you're on it right now",
+			link: {
+				href: 'https://alxnder.co/',
+			},
+		},
+		{
+			title: "Help, I'm hungry!",
 			techStack: [
-				'Lead Frontend Developer',
-
-				'TypeScript',
-				'React',
-				'Node.js',
-				'GraphQL',
+				'Side Project',
+				'Next.js',
+				'TailwindCSS',
+				'shadcn/ui',
+				'openai API',
 			],
 			description:
-				'Creative collaboration platform that combines video conferencing and HD media streaming',
+				'Create fun and unique recipes with whatever you have in the fridge using AI',
 			link: {
-				label: 'evercast.us',
-				href: 'https://www.evercast.us/',
+				href: 'https://helpimhungry.com/',
 			},
 		},
 		{
-			title: 'Mobile Vikings',
-			techStack: ['Lead Android Developer', 'Android', 'Kotlin'],
-			description:
-				'Android application for leading virtual mobile operator in Poland',
+			title: 'Talked',
+			techStack: [
+				'Side Project',
+				'Next.js',
+				'TailwindCSS',
+				'shadcn/ui',
+				'supabase',
+			],
+			description: 'A platform to help young athletes find mentors and coaches',
 			link: {
-				label: 'mobilevikings.pl',
-				href: 'https://mobilevikings.pl/',
+				href: 'https://trytalked.com/',
 			},
 		},
 		{
-			title: 'Howdy',
-			techStack: ['Lead Android Developer', 'Android', 'Kotlin'],
+			title: 'Pay me back',
+			techStack: ['Side Project', 'Next.js', 'TailwindCSS', 'shadcn/ui'],
 			description:
-				'Howdy is a place for you to join communities you care about',
+				'A simple tool to calculate how much everyone owes each other when someone covers the bill. Takes into account sales tax and other fees and splits accordingly.',
 			link: {
-				label: 'play.google.com',
-				href: 'https://howdy.co/',
+				href: 'https://paymeback.app/',
 			},
 		},
 		{
-			title: 'Tastycloud',
-			techStack: ['Lead Android Developer', 'Android', 'Kotlin'],
+			title: 'whenisgood.app',
+			techStack: [
+				'Side Project',
+				'Next.js',
+				'TailwindCSS',
+				'shadcn/ui',
+				'supabase',
+			],
 			description:
-				'Android application for managing and displaying restaurant menus in kiosk mode',
+				'A modern revamp of the old whenisgood.net website making it more accessible and user friendly',
 			link: {
-				label: 'tastycloud.fr',
-				href: 'https://www.tastycloud.fr/',
+				href: 'https://whenisgood.app/',
 			},
-		},
-		{
-			title: 'Ambit',
-			techStack: ['Lead Android Developer', 'Android', 'Kotlin'],
-			description:
-				'Android application that helps with sharing your contact details',
-		},
-		{
-			title: 'Bim',
-			techStack: ['Lead Android Developer', 'Android', 'Kotlin'],
-			description:
-				'Android application that helps with booking a table in a restaurants',
-		},
-		{
-			title: 'Canal Digital GO',
-			techStack: ['Lead Android Developer', 'Android', 'Kotlin'],
-			description:
-				'Video streaming mobile application for Canal Digital subscribers',
 		},
 	],
 } as const
