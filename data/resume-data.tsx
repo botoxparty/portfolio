@@ -48,7 +48,7 @@ export const RESUME_DATA = {
 			start: '2023',
 			end: 'Present',
 			description:
-				'Co-founder Subtract in December of 2023 as CTO. Launched our beta in March of 2024. Currently scaling the company.',
+				'Co-founded Subtract in December of 2023 as CTO. Launched our beta in March of 2024. Currently scaling the company.',
 		},
 		{
 			company: 'nCino',
