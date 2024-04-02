@@ -68,7 +68,7 @@ export const RESUME_DATA = {
 			start: '2022',
 			end: 'Present',
 			description:
-				'Led by Mike Levinthal, 13 other fellows and myself met with business leaders from around the world every week for 6 months to discuss the ways that founders and leaders can create a better world. This culminated in Cotopaxi sponsoring us to spend a month in Mexico City, Mexico helping local families run and scale their own family businesses.',
+				'Cotopaxi sponsored me and the other fellows to spend a month in Mexico City, Mexico helping local families run and scale their own family businesses. ',
 		},
 		{
 			company: 'Levinthal Capital',
@@ -78,7 +78,7 @@ export const RESUME_DATA = {
 			start: '2022',
 			end: 'Present',
 			description:
-				'Led by Mike Levinthal, 13 other fellows and myself met with business leaders from around the world every week for 6 months to discuss the ways that founders and leaders can create a better world. This culminated in Cotopaxi sponsoring us to spend a month in Mexico City, Mexico helping local families run and scale their own family businesses.',
+				'Led by Mike Levinthal, 13 other fellows and myself met with business leaders from around the world every week for 6 months to discuss the ways that founders and leaders can create a better world.',
 		},
 		{
 			company: 'Y-Video',
