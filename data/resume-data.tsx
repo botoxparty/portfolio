@@ -12,6 +12,7 @@ export const RESUME_DATA = {
 	contact: {
 		email: 'densley.alexander@gmail.com',
 		tel: '+15033969929',
+		calendly: 'https://calendly.com/densley/chat',
 		social: [
 			{
 				name: 'GitHub',

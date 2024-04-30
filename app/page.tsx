@@ -4,10 +4,16 @@ import { Badge } from '@/components/ui/badge'
 import { CommandMenu } from '@/components/command-menu'
 import { Metadata } from 'next'
 import { Section } from '@/components/ui/section'
-import { GlobeIcon, MailIcon, PhoneIcon } from 'lucide-react'
+import { GlobeIcon, MailIcon, PhoneIcon, CalendarClockIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { RESUME_DATA } from '@/data/resume-data'
 import { ProjectCard } from '@/components/project-card'
+import {
+	Tooltip,
+	TooltipContent,
+	TooltipProvider,
+	TooltipTrigger,
+} from '@/components/ui/tooltip'
 
 export const metadata: Metadata = {
 	title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -36,41 +42,85 @@ export default function Page() {
 						</p>
 						<div className='flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden'>
 							{RESUME_DATA.contact.email ? (
-								<Button
-									className='size-8'
-									variant='outline'
-									size='icon'
-									asChild
-								>
-									<a href={`mailto:${RESUME_DATA.contact.email}`}>
-										<MailIcon className='size-4' />
-									</a>
-								</Button>
+								<TooltipProvider key='email' delayDuration={100}>
+									<Tooltip>
+										<TooltipTrigger>
+											<Button
+												className='size-8'
+												variant='outline'
+												size='icon'
+												asChild
+											>
+												<a href={`mailto:${RESUME_DATA.contact.email}`}>
+													<MailIcon className='size-4' />
+												</a>
+											</Button>
+										</TooltipTrigger>
+										<TooltipContent className='text-xs'>Email</TooltipContent>
+									</Tooltip>
+								</TooltipProvider>
 							) : null}
 							{RESUME_DATA.contact.tel ? (
-								<Button
-									className='size-8'
-									variant='outline'
-									size='icon'
-									asChild
-								>
-									<a href={`tel:${RESUME_DATA.contact.tel}`}>
-										<PhoneIcon className='size-4' />
-									</a>
-								</Button>
+								<TooltipProvider key='phone' delayDuration={100}>
+									<Tooltip>
+										<TooltipTrigger>
+											<Button
+												className='size-8'
+												variant='outline'
+												size='icon'
+												asChild
+											>
+												<a href={`tel:${RESUME_DATA.contact.tel}`}>
+													<PhoneIcon className='size-4' />
+												</a>
+											</Button>
+										</TooltipTrigger>
+										<TooltipContent className='text-xs'>Phone</TooltipContent>
+									</Tooltip>
+								</TooltipProvider>
+							) : null}
+							{RESUME_DATA.contact.calendly ? (
+								<TooltipProvider key='calendly' delayDuration={100}>
+									<Tooltip>
+										<TooltipTrigger>
+											<Button
+												className='size-8'
+												variant='outline'
+												size='icon'
+												asChild
+											>
+												<a href={RESUME_DATA.contact.calendly} target='_blank'>
+													<CalendarClockIcon className='size-4' />
+												</a>
+											</Button>
+										</TooltipTrigger>
+										<TooltipContent className='text-xs'>
+											Calendly
+										</TooltipContent>
+									</Tooltip>
+								</TooltipProvider>
 							) : null}
 							{RESUME_DATA.contact.social.map((social) => (
-								<Button
-									key={social.name}
-									className='size-8'
-									variant='outline'
-									size='icon'
-									asChild
-								>
-									<a href={social.url}>
-										<social.icon className='size-4' />
-									</a>
-								</Button>
+								<TooltipProvider key={social.name} delayDuration={100}>
+									<Tooltip>
+										<TooltipTrigger>
+											<Button
+												key={social.name}
+												className='size-8'
+												variant='outline'
+												size='icon'
+												asChild
+											>
+												<a href={social.url}>
+													<social.icon className='size-4' />
+												</a>
+											</Button>
+										</TooltipTrigger>
+										<TooltipContent className='text-xs'>
+											{social.name}
+										</TooltipContent>
+									</Tooltip>
+								</TooltipProvider>
 							))}
 						</div>
 						<div className='hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex'>
