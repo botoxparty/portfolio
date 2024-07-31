@@ -101,7 +101,7 @@ export default function Page() {
 											</Button>
 										</TooltipTrigger>
 										<TooltipContent className='text-xs'>
-											Calendly
+											Cal.com
 										</TooltipContent>
 									</Tooltip>
 								</TooltipProvider>
