@@ -95,7 +95,7 @@ export default function Page() {
 												size='icon'
 												asChild
 											>
-												<a href={RESUME_DATA.contact.calendly} target='_blank'>
+												<a href={RESUME_DATA.contact.booking} target='_blank'>
 													<CalendarClockIcon className='size-4' />
 												</a>
 											</Button>
