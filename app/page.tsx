@@ -85,8 +85,8 @@ export default function Page() {
 									</Tooltip>
 								</TooltipProvider>
 							) : null}
-							{RESUME_DATA.contact.calendly ? (
-								<TooltipProvider key='calendly' delayDuration={100}>
+							{RESUME_DATA.contact.booking ? (
+								<TooltipProvider key='booking link' delayDuration={100}>
 									<Tooltip>
 										<TooltipTrigger>
 											<Button
