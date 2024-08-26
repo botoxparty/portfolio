@@ -35,7 +35,7 @@ export const RESUME_DATA = {
 		{
 			school: 'Brigham Young University',
 			degree:
-				"Bachelor's of Science in Computer Science and a minor in Entrepreneurship",
+				"Bachelor's of Science in Computer Science and a minor in Entrepreneurship | GPA 3.9",
 			start: '2018',
 			end: '2024',
 		},
