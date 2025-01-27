@@ -1,11 +1,12 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from '@/components/icons'
+import headshot from './HEADSHOT-2025.jpg'
 
 export const RESUME_DATA = {
 	name: 'Adam Hammad',
 	initials: 'AH',
 	location: 'Berlin, Germany',
 	about: 'freelance, contract, full-stack, architecture',
-	avatarUrl: '',
+	avatarUrl: headshot.src,
 	summary: `I have a diverse career as a Software Engineer and Architect, showcasing my expertise across various industries. Notable achievements
 include delivering JavaScript projects from end-to-end, leading teams, developing proof-of-concepts to rebuilding legacy
 applications from the ground up using the latest technologies, and creating innovative tools to support engineering
