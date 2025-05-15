@@ -56,6 +56,15 @@ practices.`,
 	],
 	work: [
 		{
+			company: 'Adevinta',
+			link: 'https://www.adevinta.com',
+			badges: ['React', 'Python', 'Langchain', 'GPT', 'Typescript', 'AWS Bedrock', 'Docker'],
+			title: 'AI Software Engineer',
+			start: 'Apr 2025',
+			end: 'Present',
+			description: 'Developing AI powered marketplace tools for a range of solutions across the Adevinta ecosystem.',
+		},
+		{
 			company: 'Checkatrade',
 			link: 'https://www.checkatrade.com',
 			badges: ['Node.js', 'React', 'Next.js', 'GPT', 'Typescript', 'Google Cloud', 'GCP', 'Docker'],
