@@ -8,7 +8,7 @@ export const RESUME_DATA = {
 	about: 'freelance, contract, full-stack, architecture',
 	avatarUrl: headshot.src,
 	summary: `I have a diverse career as a Software Engineer and Architect, showcasing my expertise across various industries. Notable achievements
-include delivering JavaScript projects from end-to-end, leading teams, developing proof-of-concepts to rebuilding legacy
+include delivering projects from end-to-end, leading teams, developing proof-of-concepts to rebuilding legacy
 applications from the ground up using the latest technologies, and creating innovative tools to support engineering
 practices.`,
 	personalWebsiteUrl: 'https://adamham.dev',
