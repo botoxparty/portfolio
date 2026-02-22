@@ -10,7 +10,8 @@ export const RESUME_DATA = {
 	summary: `I have a diverse career as a Software Engineer and Architect, showcasing my expertise across various industries. Notable achievements
 include delivering projects from end-to-end, leading teams, developing proof-of-concepts to rebuilding legacy
 applications from the ground up using the latest technologies, and creating innovative tools to support engineering
-practices.`,
+practices. In recent years I've focused on AI engineering — building LLM-powered tools for fraud detection, 
+customer automation, and marketplace innovation`,
 	personalWebsiteUrl: 'https://adamham.dev',
 	contact: {
 		email: 'mail@adamham.dev',
